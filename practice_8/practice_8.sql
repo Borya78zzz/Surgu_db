@@ -1,6 +1,4 @@
--- Практическая работа 8. Приведение к 3НФ и НФБК
--- Задания: https://surgu.needcode.ru/practices/11
--- Лекция: https://surgu.needcode.ru/lectures/11
+
 
 -- Отдельная схема позволяет сохранить существующие таблицы прошлых работ.
 CREATE SCHEMA IF NOT EXISTS practice_8;

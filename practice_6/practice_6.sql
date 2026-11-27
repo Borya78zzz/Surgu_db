@@ -38,7 +38,6 @@ SELECT c.full_name
 FROM Customers c
 INNER JOIN Orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.full_name
-HAVING COUNT(o.order_id) > 1;
 
 -- Задание 8. Самый продаваемый товар по количеству единиц
 -- При одинаковом максимуме выводятся все товары-лидеры.
